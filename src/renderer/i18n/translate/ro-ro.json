@@ -869,6 +869,7 @@
       "expired": "Expirat",
       "inputPreview": "Previzualizare intrare instrument",
       "pending": "În așteptare ({{seconds}}s)",
+      "pendingBadge": "[to be translated]:Pending",
       "permissionExpired": "Cererea de permisiune a expirat. Se așteaptă instrucțiuni noi...",
       "requiresElevatedPermissions": "Acest instrument necesită permisiuni elevate.",
       "suggestion": {
@@ -2292,6 +2293,7 @@
     "provider": "Furnizor",
     "reasoning_content": "Raționament profund",
     "refresh": "Reîmprospătează",
+    "refresh_failed": "[to be translated]:Couldn't refresh the list. Showing the last loaded version.",
     "regenerate": "Regenerează",
     "remove_image": "Elimină imaginea",
     "rename": "Redenumește",
@@ -3921,18 +3923,6 @@
     "processing": "Se procesează...",
     "regenerate": {
       "confirm": "Regenerarea va înlocui mesajul curent"
-    },
-    "reset": {
-      "confirm": {
-        "content": "Ești sigur că vrei să ștergi toate datele?"
-      },
-      "double": {
-        "confirm": {
-          "content": "Toate datele vor fi pierdute, vrei să continui?",
-          "title": "DATE PIERDUTE !!!"
-        }
-      },
-      "success": "Retelearea datelor a reușit"
     },
     "restore": {
       "failed": "Restaurare eșuată",
@@ -5778,6 +5768,13 @@
       "data": {
         "title": "Director de date"
       },
+      "data_reset": {
+        "button": "Resetează",
+        "confirm_content": "Această acțiune va șterge conversațiile, asistenții, bazele de cunoștințe, fișierele și setările, apoi va reporni aplicația. Acțiunea nu poate fi anulată. Continui?",
+        "confirm_title": "Resetarea datelor aplicației",
+        "error": "Pornirea resetării datelor a eșuat",
+        "title": "Resetare date"
+      },
       "divider": {
         "basic": "Setări date de bază",
         "cloud_storage": "Setări backup în cloud",
@@ -6510,10 +6507,6 @@
       "emoji_picker": "Selector emoji",
       "image_upload": "Încărcare imagine",
       "label": "Setări generale",
-      "reset": {
-        "button": "Resetează",
-        "title": "Resetare date"
-      },
       "restore": {
         "button": "Restaurează"
       },

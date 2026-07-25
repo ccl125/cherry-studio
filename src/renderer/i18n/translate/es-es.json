@@ -869,6 +869,7 @@
       "expired": "Caducado",
       "inputPreview": "Vista previa de entrada de herramienta",
       "pending": "Pendiente ({{seconds}}s)",
+      "pendingBadge": "[to be translated]:Pending",
       "permissionExpired": "Solicitud de permiso expirada. Esperando nuevas instrucciones...",
       "requiresElevatedPermissions": "Esta herramienta requiere permisos elevados.",
       "suggestion": {
@@ -2292,6 +2293,7 @@
     "provider": "Proveedor",
     "reasoning_content": "Pensamiento profundo",
     "refresh": "Actualizar",
+    "refresh_failed": "[to be translated]:Couldn't refresh the list. Showing the last loaded version.",
     "regenerate": "Regenerar",
     "remove_image": "Quitar imagen",
     "rename": "Renombrar",
@@ -3921,18 +3923,6 @@
     "processing": "Procesando...",
     "regenerate": {
       "confirm": "Regenerar sobrescribirá el mensaje actual"
-    },
-    "reset": {
-      "confirm": {
-        "content": "¿Está seguro de querer restablecer todos los datos?"
-      },
-      "double": {
-        "confirm": {
-          "content": "Todos sus datos se perderán, si no tiene una copia de seguridad, no podrán ser recuperados, ¿desea continuar?",
-          "title": "¡¡Pérdida de datos!!"
-        }
-      },
-      "success": "Restablecimiento de datos exitoso"
     },
     "restore": {
       "failed": "Restauración fallida",
@@ -5778,6 +5768,13 @@
       "data": {
         "title": "Directorio de datos"
       },
+      "data_reset": {
+        "button": "Restablecer",
+        "confirm_content": "Se borrarán los chats, asistentes, bases de conocimiento, archivos y ajustes, y luego se reiniciará la aplicación. Esta acción no se puede deshacer. ¿Desea continuar?",
+        "confirm_title": "Restablecer datos de la aplicación",
+        "error": "No se pudo iniciar el restablecimiento de datos",
+        "title": "Restablecer datos"
+      },
       "divider": {
         "basic": "Configuración básica",
         "cloud_storage": "Configuración de almacenamiento en la nube",
@@ -6510,10 +6507,6 @@
       "emoji_picker": "Selector de emojis",
       "image_upload": "Carga de imágenes",
       "label": "Configuración general",
-      "reset": {
-        "button": "Restablecer",
-        "title": "Restablecer datos"
-      },
       "restore": {
         "button": "Restaurar"
       },
